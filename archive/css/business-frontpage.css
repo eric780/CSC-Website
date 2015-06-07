@@ -1,0 +1,73 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Georgia" !important;
+}
+p, a, li{
+    font-family: "Verdana" !important;
+}
+.navbar-brand{
+    font-family: "Georgia" !important;
+}
+
+
+
+#business-header {
+    height: 300px;
+    background: url('../images/csc_long.jpg') no-repeat;
+    /*CSC red is rgb(213,0,13) aka D5000D*/
+    
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    background-position:center;
+    -o-background-size: contain;
+}
+
+.navbar-inverse{
+    background-color:white;
+    border-color:black;
+}
+
+.navbar .nav > li > a {
+    color:black;
+}
+.navbar .nav > li > a:hover, .navbar-brand:hover{
+    color:#ddd !important;
+}
+
+.social{
+    vertical-align:middle;
+    width:50px;
+}
+
+#csc_logo{
+    width:150px;
+    height:auto;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+

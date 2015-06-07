@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Cornell Strategic Consulting</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index">
+                    Cornell Strategic Consulting
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="services">Services</a>
+                    </li>
+                    <li>
+                        <a href="apply">Apply</a>
+                    </li>
+                    <li>
+                        <a href="projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <h1>Business Analyst Application</h1>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+                <p>All new members will join as Business Analysts after a short training program. After their first semester, consultants will have the opportunity to become Project Managers and run for the Executive Board. Please fill out the application below if you are interested in applying for our Business Analyst program.</p>
+                <p>Note: One application per NetID. All fields including the resume are required. Please name your resume file as "FirstName_LastName". If you encounter any issues or need to revise your application, please email <a href="mailto:cornellstrategicconsulting@gmail.com">cornellstrategicconsulting@gmail.com</a>.</p>
+                <p>We will email you at your Cornell email address via your given NetID.</p>
+            </div>
+            <div class="col-md-2">
+                <img src="images/csc_short.png" id="csc_logo">
+            </div>
+        </div>
+        <div class="row">
+            <form id="application" class="form-horizontal" role="form" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="firstname" class="col-sm-2">First Name:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="firstname">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="lastname" class="col-sm-2">Last Name:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="lastname">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="netid" class="col-sm-2">NetID</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="netid">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="schoolyear" class="col-sm-2">Year:</label>
+                    <div class="col-sm-10">
+                        <input type="radio" name="year" value="Freshman"> Freshman
+                        <input type="radio" name="year" value="Sophomore"> Sophomore
+                        <input type="radio" name="year" value="Junior"> Junior
+                        <input type="radio" name="year" value="Senior"> Senior
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="college" class="col-sm-2">College:</label>
+                    <div class="col-sm-10">
+                        <input type="radio" name="college" value="Arts"> Arts &amp; Sciences
+                        <input type="radio" name="college" value="Eng"> Engineering
+                        <input type="radio" name="college" value="CALS"> CALS
+                        <input type="radio" name="college" value="ILR"> ILR
+                        <input type="radio" name="college" value="HA"> Hotel Administration
+                        <input type="radio" name="college" value="HE"> Human Ecology
+                        <input type="radio" name="college" value="ARCH"> Architecture
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="major" class="col-sm-2">Major:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="major">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="gpa" class="col-sm-2">GPA:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="gpa">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="resumefile" class="col-sm-2">Please upload your resume: </label>
+                    <div class="col-sm-10">
+                        <input type="file" id="resumefile">
+                    </div>
+                </div>
+                <button type="submit" id="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+        <!--<div class="row">
+            <iframe src="https://docs.google.com/forms/d/10xCeCTz-pww_9M0TbVt4ygf0zzEfruQeV8iwJzonUbk/viewform?embedded=true" width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>-->
+
+
+
+
+    <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Cornell Strategic Consulting 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <script>
+        var applicationIsOpen = false;
+
+
+        var resume; //uploaded resume
+        $("#resumefile").on('change', function(e){
+            resume = e.target.files[0];
+        });
+
+        $(document).ready(function(){
+            //can't submit form by pressing enter
+            $(window).keydown(function(event){
+                if(event.keyCode == 13) {
+                  event.preventDefault();
+                  return false;
+                }
+            });
+
+            $("#application").submit(function(e){
+                e.preventDefault();
+
+                if(confirm("Are you sure you want to submit?")){
+                    var firstname = $("#firstname").val();
+                    var lastname = $("#lastname").val();
+                    var netid = $("#netid").val();
+                    var year = $("input[name=year]:checked").val();
+                    var college = $("input[name=college]:checked").val();
+                    var major = $("#major").val();
+                    var gpa = $("#gpa").val();
+
+                    if(!applicationIsOpen){
+                        alert("We're sorry, but the application deadline has passed. Please stay tuned for next semester's applications!");
+                    }
+
+                    else if(validateForm()){ //if form passes validation
+                        //create formData object
+                        var data = new FormData();
+                        data.append("firstname", firstname);
+                        data.append("lastname", lastname);
+                        data.append("netid", netid);
+                        data.append("year", year);
+                        data.append("college", college);
+                        data.append("major", major);
+                        data.append("gpa", gpa);
+
+                        data.append("resume", resume);
+
+                        $.ajax({
+                            url: 'apply.php',
+                            type: 'POST',
+                            enctype: 'multipart/form-data',
+                            data: data,
+                            cache: false,
+                            processData: false,
+                            contentType: false,
+                            success: function(data){
+                                console.log(data);
+                                if(data.file_upload_status != 'success'){
+                                    alert("Your file may not have uploaded correctly. Please contact us at cornellstrategicconsulting@gmail.com.");
+                                }
+                                if(data.applicant_status != 'success'){
+                                    alert("Your application may not have been saved. Please try again in a few minutes, or contact us at cornellstrategicconsulting@gmail.com.");
+                                }
+                                else{
+                                    applicationSuccess();
+                                }
+                            },
+                            error: function(jqXHR, textStatus, errorThrown){
+                                console.log("php returned error to ajax call");
+                                console.log(textStatus);
+                                console.log(errorThrown);
+                                alert("Server error. Your application may not have been saved. Please try again in a few minutes or contact us at cornellstrategicconsulting@gmail.com.");
+                            }
+                        });
+                    }
+                }
+
+                function applicationSuccess(){
+                    alert("Thanks for applying! You should receive a confirmation email, and you will hear back from us shortly.");
+                    $("#application")[0].reset();
+                }
+
+                function validateForm(){
+                    if(firstname == '' || lastname == ''){
+                        alert("Please fill out first name and/or last name.");
+                        return false;
+                    }
+                    if(netid == ''){
+                        alert("Please fill out a NetID");
+                        return false;
+                    }
+                    if(year == undefined){
+                        alert("Please select your year.");
+                        return false;
+                    }
+                    if(college == undefined){
+                        alert("Please select your college.");
+                        return false;
+                    }
+                    if(major == ''){
+                        alert("Please fill out your major.");
+                        return false;
+                    }
+                    if(gpa == ''){
+                        alert("Please indicate your GPA.");
+                        return false;
+                    }
+                    if(firstname.length > 50 || lastname.length > 50){
+                        alert("Please keep both first and last name under 50 characters.");
+                        return false;
+                    }
+                    if(netid.length > 10){
+                        alert("Please keep netID length under 10 characters");
+                        return false;
+                    }
+                    if(major.length > 50){
+                        alert("Please keep major length under 50 characters");
+                        return false;
+                    }
+                    if(gpa.length > 10){
+                        alert("Please keep GPA length under 10 characters.");
+                        return false;
+                    }
+
+                    return true;
+                }
+                
+
+            })
+        })
+
+
+    </script>
+</body>
+
+</html>
