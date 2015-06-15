@@ -43,7 +43,7 @@ section {
     NAVBAR STYLES
 ==================================*/
 .navbar-default {
-    background-color: rgb(35, 133, 161);
+    background-color: #d73a3a; /* cornell red */
     border-color: transparent;
     color: #fff;
 }
@@ -93,6 +93,11 @@ section {
 .p-cls {
     padding-top: 30px;
     padding-bottom: 40px;
+}
+
+/*GLYPHICON SIZE*/
+.glyphicon{
+    font-size: 5em;
 }
 
 /*======================================
@@ -156,6 +161,7 @@ section {
     background-color:#f4f4f4;
     padding-bottom:50px;
     padding-top:50px;
+    text-align:center;
 }
     #clients img {
         opacity:0.5;
@@ -173,7 +179,7 @@ footer {
     font-size: 15px;
     text-align: center;
     font-weight: 900;
-    background-color: rgb(35, 133, 161);
+    background-color: #d73a3a;
     color: #fff;
 }
 
