@@ -131,13 +131,40 @@
         <div class="container">
             <div class="row text-center pad-bottom">
                 <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-                    <h2 class="head-set">PROJECTS/CLIENT LOGOS HERE</h2>
+                    <h2 class="head-set">OUR SERVICES</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Our members provide a unique student perspective, as well as their past experiences working on various client based projects ranging from:
+                    </p>
+                    <ul>
+                        <li>Market Research</li>
+                        <li>Sales</li>
+                        <li>Expansion Strategy</li>
+                        <li>User Testing/User Experience</li>
+                        <li>Pricing Strategy</li>
+                        <li>Social Media</li>
+                    </ul>
+                    <p> 
+                        If you are interested in our services, please contact us at <a href="mailto:cornellstrategicconsulting@gmail.com">cornellstrategicconsulting@gmail.com</a>.
                     </p>
                 </div>
             </div>
+
+            <div class="row" id="client_testimonials">
+                <div class="col-md-5">
+                    <p><i>Stephanie Ko, Founder and CEO of Sabi</i></p>
+                    <br/>
+                    <p>“I worked with CSC for the entire semester and they conducted themselves at a high level of professionalism.  They were very flexible to meet with me, and they demonstrated a strong understanding of the industry before we even met.  We are looking forward to working with CSC in the near future.”</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="assets/img/csc_short.png" id="csc_logo">
+                </div>
+                <div class="col-md-5">
+                    <p><i>Jaiel Lee, Founder of FiberSpark</i></p>
+                    <br/>
+                    <p>“We enjoyed working with CSC last semester and the team manager had good understanding of technology. His computer science background and work ethic got us what we needed. We are looking forward to work with CSC again this semester.”</p>
+                </div>
+            </div>
+            
             <div class="row text-center portfolio-item">
 
                 <div class="col-md-4 col-sm-4 ">
@@ -171,20 +198,86 @@
             </div>
         </div>
     </section>
-    <!--WORKS / PORTFOLIO SECTION END  -->
-    <div id="video-sec" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Ycv5fNd4AeM',containment:'self',autoPlay:true, mute:true, startAt:0, opacity:1,mute: true,showControls:false}">
+    <!--  ANALYST APPLICATION SECTION  -->
+    <div id="video-sec">
         <!-- change https://www.youtube.com/watch?v=Ycv5fNd4AeM to your youtube url-->
         <div class="overlay">
             <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-12">
-                        <h1>APPLICATION WILL FOLD DOWN HERE</h1>
-                        <h4>This scripts uses plugin <strong>jquery.mb.YTPlayer</strong>
-
-                        </h4>
-                        <h4>to play video in background of divs
-
-                        </h4>
+                <div class="row text-center" id="expandheader">
+                    <h1>Business Analyst Application</h1>
+                    <h3 id="expandinstructions">Click to expand</h3>
+                </div>
+                <div class="col-md-1"> <!-- filler to push next div to the right -->
+                </div>
+                <div id="expandcontent" class="col-md-10">
+                    <div class="row text-left">
+                        <p>All new members will join as Business Analysts after a short training program. After their first semester, consultants will have the opportunity to become Project Managers and run for the Executive Board. Please fill out the application below if you are interested in applying for our Business Analyst program.</p>
+                        <p>Note: One application per NetID. All fields including the resume are required. Please name your resume file as "FirstName_LastName". If you encounter any issues or need to revise your application, please email <a href="mailto:cornellstrategicconsulting@gmail.com">cornellstrategicconsulting@gmail.com</a>.</p>
+                        <p>We will email you at your Cornell email address via your given NetID.</p>
+                    </div>
+                    <div class="row text-left">
+                        <form id="application" class="form-horizontal" role="form" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="firstname" class="col-sm-2">First Name:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="firstname">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastname" class="col-sm-2">Last Name:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="lastname">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="netid" class="col-sm-2">NetID</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="netid">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="schoolyear" class="col-sm-2">Year:</label>
+                                <div class="col-sm-10">
+                                    <input type="radio" name="year" value="Freshman"> Freshman
+                                    <input type="radio" name="year" value="Sophomore"> Sophomore
+                                    <input type="radio" name="year" value="Junior"> Junior
+                                    <input type="radio" name="year" value="Senior"> Senior
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="college" class="col-sm-2">College:</label>
+                                <div class="col-sm-10">
+                                    <input type="radio" name="college" value="Arts"> Arts &amp; Sciences
+                                    <input type="radio" name="college" value="Eng"> Engineering
+                                    <input type="radio" name="college" value="CALS"> CALS
+                                    <input type="radio" name="college" value="ILR"> ILR
+                                    <input type="radio" name="college" value="HA"> Hotel Administration
+                                    <input type="radio" name="college" value="HE"> Human Ecology
+                                    <input type="radio" name="college" value="ARCH"> Architecture
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="major" class="col-sm-2">Major:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="major">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="gpa" class="col-sm-2">GPA:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="gpa">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="resumefile" class="col-sm-2">Please upload your resume: </label>
+                                <div class="col-sm-10">
+                                    <input type="file" id="resumefile">
+                                </div>
+                            </div>
+                            <div id="buttonwrapper" class="text-center">
+                                <button type="submit" id="submit" class="btn btn-default">Submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -196,7 +289,7 @@
         <div class="container">
             <div class="row text-center ">
                 <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-                    <h2 class="head-set">MEMBER BIOS GO HERE</h2>
+                    <h2 class="head-set">MEMBER BIOS GO HERE (expand/collapse)</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                          Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
@@ -204,24 +297,17 @@
                     <br />
                 </div>
             </div>
-            <div class="row text-center">
-
-
-                <div class="col-md-12">
-                    <h3>102, Melborne City,</h3>
-                    <h3>United States - 600 - 009 -00.</h3>
-                    <h3><strong>Email :</strong> info@yourdomain.com</h3>
-
-                </div>
-
-            </div>
         </div>
     </section>
     <!-- CONTACT SECTION END-->
     <section id="clients">
     <div class="container">
         <div class="row">
-            <p>CONTACT INFORMATION HERE</p>
+            <h1>Contact Us</h1>
+        </div>
+        <div class="row text-center">
+            <h3>Please direct all inquiries to:</h3>
+            <a href="mailto:cornellstrategicconsulting@gmail.com">cornellstrategicconsulting@gmail.com</a>
         </div>
 
     </div>

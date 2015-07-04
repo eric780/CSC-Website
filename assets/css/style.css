@@ -119,7 +119,7 @@ section {
 
     .parallax-like .overlay {
         min-height: 200px;
-        background: rgba(35, 133, 161,0.9);
+        background: #d73a3a;
         font-size: 40px;
         padding-bottom: 60px;
         padding-top: 60px;
@@ -138,26 +138,40 @@ section {
     z-index: 1;
 }
 
+#works ul li{
+    list-style-type:none;
+}
+
+#client_testimonials img{
+    width: 150px;
+    vertical-align: middle;
+}
+
 /*================================
-    VIDEO SECTION STYLES
+    ANALYST APPLICATION SECTION
 ==================================*/
 #video-sec {
     color: #fff;
     text-align: center;
 }
 
-    #video-sec .overlay {
-        background-color: rgba(0, 0, 0, 0.85);
-        min-height: 300px;
-        color: #fff;
-    }
+#video-sec .overlay {
+    background-color: rgba(0, 0, 0, 0.85);
+    min-height: 300px;
+    color: #fff;
+}
 
-    #video-sec h1 {
-        padding-top: 80px;
-        font-size: 50px;
-        font-weight: 900;
-        padding-bottom: 30px;
-    }
+#video-sec h1 {
+    padding-top: 80px;
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+#expandcontent{
+    display:none;
+}
+
 /*================================
     CLIENTS SECTION STYLES
 ==================================*/
