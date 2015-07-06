@@ -62,36 +62,26 @@ section {
 .navbar-default .navbar-toggle .icon-bar {
     background-color:#fff;
 }
+
+.navbar img{
+    max-height: 20px;
+}
 /*================================
     HOME SECTION STYLES
 ==================================*/
 
 /*STYLE OF BACKGROUND IMAGE*/
 #home {
-    background: url(../img/csc_long.jpg) no-repeat center/60%; /*Full Witdth background image*/;
+    background: url(../img/csc_long.jpg) no-repeat center/60%; /*Full Width background image*/;
     padding-top: 50px;
+    background-position: 20vw 1vh;
     /*
     -webkit-background-size: cover;
     background-size: cover;
     -moz-background-size: cover;*/
     min-height: 600px;
 }
-    /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
-    /*#home .overlay {
-        padding-top: 90px;
-        background-color: rgba(35, 133, 161,0.75); /*.75 opacity of the color so that background image is visible*/
-        /*min-height: 600px;
-        color: #fff;
-    }*/
 
-
-    /*#home h1 {
-        padding-top: 80px;
-        font-weight: 900;
-        font-size: 100px;
-        font-family: 'Browallia New';
-    }*/
-/*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
 
 /*CLASS TO FORMAT TEXT*/
 .p-cls {
@@ -138,6 +128,25 @@ section {
     z-index: 1;
 }
 
+#clientlogos{
+    width:100%;
+    text-align:center;
+}
+#clientlogos .logo-wrapper{
+    width:310px;
+    height:100px;
+    line-height: 100px;
+    text-align:center;
+    display: inline-block;
+    vertical-align: middle;
+    padding:10px;
+}
+.logo-wrapper img{
+    max-height: 100px;
+    max-width: 310px;
+    vertical-align: middle;
+}
+
 #works ul li{
     list-style-type:none;
 }
@@ -150,24 +159,27 @@ section {
 /*================================
     ANALYST APPLICATION SECTION
 ==================================*/
-#video-sec {
+#analyst-app {
     color: #fff;
     text-align: center;
 }
 
-#video-sec .overlay {
+#analyst-app .overlay {
     background-color: rgba(0, 0, 0, 0.85);
     min-height: 300px;
     color: #fff;
 }
 
-#video-sec h1 {
+#analyst-app h1 {
     padding-top: 80px;
     font-size: 50px;
     font-weight: 900;
     padding-bottom: 30px;
 }
 
+#expandheader{
+    cursor:pointer;
+}
 #expandcontent{
     display:none;
 }
@@ -188,6 +200,14 @@ section {
         #clients img:hover {
             opacity:1;
         }
+
+
+/*================================
+    BIOS SECTION STYLES
+================================*/
+
+
+
 /*================================
     FOOTER SECTION STYLES
 ==================================*/

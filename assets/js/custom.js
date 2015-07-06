@@ -38,7 +38,7 @@ $(document).ready(function () {
             $content = $header.next().next();
             $content.slideToggle(500, function(){
                 $('#expandinstructions').text(function(){
-                    return $content.is(":visible") ? "Click to collapse" : "Click to expand";
+                    return $content.is(":visible") ? "Click to close" : "Click to open";
                 })
             });
         });
